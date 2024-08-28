@@ -1,0 +1,13 @@
+AWS Lambda:
+Lambda lets you bulid and run code quickly, without provisionary or managing servers.
+In amazon connect, you can invoke funcitons in a contact flow.
+You can build lambda functions that communicate with your internal systems, such as retrieving the status of an order.
+Can return the value from the functions.
+
+Amazon Lens:
+Amazon connect integrate with amazon lens to provide chat and voice. Amazon lens provide the automatic speech to text,
+and NLU recognize customer intent.
+
+Amazon S3:
+stores data from amazon connect, such as recordings of conversations and metrics reports.
+

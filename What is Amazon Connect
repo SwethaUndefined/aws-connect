@@ -1,0 +1,27 @@
+1. cloud contact center 
+2. provide superior customer service at a lower cost
+
+
+features of Amazon Connect:
+  1. user administration
+  2. Contact Control Panel(CCP)
+  3. Contact flows
+  4. Skill Based Routing
+  5. Metrics and Reporting
+
+
+
+  CCP : CCP is a client interface used by agents to handle customer contacts. Customers can use that comes from amazon
+  connect or build the customer CCP using stream API.
+
+  CRM : Customer Relationship Management, this approach manages the relationship and interactions with your
+  customer and potential customer.
+
+  Supervisor/Administrators:
+    A person who overseas day to day operations of a contact center or part of a contact center in an 
+    administrative function.
+
+  Agent : 
+  A person who handles inbound and outbound or both(blended) contacts of a contact center.
+  
+    

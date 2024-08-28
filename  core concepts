@@ -1,0 +1,32 @@
+What are the core concepts that you should consider when building an Amazon Connect contact center?
+
+Telephony:
+Amazon Connect provides a variety of choices to enable your company to make and receive telephone calls. A big advantage of Amazon Connect is AWS manages the telephony infrastructure for you: carrier connections, redundancy, and routing. And, it's designed to scale.
+
+Chat:
+Amazon Connect allows your customers to start a chat with an agent or Amazon Lex bot, step away from it, and then resume the conversation. They can even switch devices and continue the chat.
+
+Routing profiles and queue-based routing:
+A routing profile determines the contacts that an agent receives and routing priority. Amazon Connect uses routing profiles to help you manage your contact center at scale.
+Queue-based (or skills-based) routing directs customers to specific agents according to criteria like agent skill. 
+
+Natural language processing (NLP):
+NLP reduces the time and effort needed to achieve your contact's purpose, facilitate self-service, and can increase quality of experience for your contacts. Amazon Connect features a native integration with Amazon Lex for NLP over text and voice.
+
+Channels and concurrency: 
+Agents can be available concurrently on both voice and chat channels. Here's how this works:
+
+Suppose an agent is configured in their routing profile for voice and up to five chats. When the agent logs in, a chat or voice call can route to them. However, once they are on a voice call, no more voice calls or chats are routed to them until they finish the call.
+
+Contact flows: 
+A contact flow defines how a customer experiences your contact center from start to finish. At the most basic level, contact flows enable you to customize your IVR (interactive voice response) system. For example, you can give customers a set of menu options, and route customers to agents based on what they enter on their phone. With Amazon Connect, contact flows are even more powerful. You create dynamic, personalized flows to interact with AWS services.
+
+. For the best agent and customer audio experience, a USB headset is recommended. Alternatively, you can redirect the contact to an external number, in E.164 format, using an agent's existing telephony.
+
+Browser—The latest three versions of Google Chrome or Mozilla Firefox
+Network—100 Kbps bandwidth per connected workstation
+Memory—2 GB RAM
+Processor (CPU)—2 GHz
+
+AWS Well-Architected Framework – Contact Center Lens 
+

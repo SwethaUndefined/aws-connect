@@ -1,0 +1,42 @@
+Telephony :  both inbound and outbound, Customer can call agents, agent can use amazon connect web phones. or use test phone 
+called Public Switch telephone Network (PSTN)
+
+Calls are stored in amazon data storage or amazon S3 bucket.
+---------------------------------------------------------------------
+
+1. Setting up phone number for customers to contact and port the phone number to amazon connect
+
+2. setting with hours of operations(means time the customer contact center will open):
+
+To build out a holiday closure schedule, many enterprise organizations use a DynamoDB and reference that table with a Lambda function.
+
+
+3. Create queues:
+In Amazon Connect, routing consists of three parts: queues, routing profiles, and contact flows.
+  
+  a.) Queues : Queues can handle voice, chat, or both.
+  b.) Contact flows : customer's experience when they contact you. Amazon Connect contact flows can integrate with systems such as CRMs and databases to dynamically adapt the experience by customer and history.
+  c.)  routing profile : A routing profile is a collection of queues from which an agent services contacts. Routing profiles enable agents to service multiple queues with the proper level of priority.
+
+What is a queue, and how does it work?
+
+A queue is a "waiting area" that holds contacts to be answered by agents. You can use a single queue to handle all incoming contacts, or set up multiple queues. Contacts in a queue are automatically prioritized and forwarded to the next available agent. Customers are placed on hold if there are no available agents.
+
+The order in which customers are serviced is determined by their time in the queue on a first-come, first-served basis, unless otherwise specified in the contact flow. If multiple agents are available, the contact is routed to the agent who has been in available status for the longest time.
+
+What are the attributes to setting up queues ?
+
+Limits (optional)
+Hours of operation
+Outbound caller ID name
+Outbound caller ID number
+Quick connects (optional)
+Outbound whisper flow (optional)
+
+4. Create prompts :
+What are the technical requirements on prompts?
+
+Only 8 KHz WAV files that are less than 50 MB are supported for prompts.
+
+
+5. Create contact flows
